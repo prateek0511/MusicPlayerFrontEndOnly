@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../MusicPlayer/artist.css">
+    <script src="https://kit.fontawesome.com/d0876c66c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section Which contains navigation bar -->
+
+<header>
+
+    <!-- .............NAvigation bar.............. -->
+
+    <div id="navigation-bar">
+    <div id="music-logo" class="d-inline-block">
+        <a href="../MusicPlayer/index.html"><img src="../MusicPlayer/images/313661-P9FFCN-14.jpg"></a>
+        
+    </div>
+    <a href="#" target="blank" class="white font-sans d-inline-block" style="position: absolute; top:37%; left:20%;">Favourites</a>
+    
+    <!-- Search Engine -->
+    <div  class="search-bar">
+         <i class="fas fa-search search-icon" style="top:11px;left:7px;color:#dee0e3;"></i>
+         <input type="text" name="search" placeholder="Search" style="color: white;">
+         <i class="fas fa-microphone microphone" style="top:11px; right:7px;
+         color:#dee0e3;"></i>
+     </div>
+
+     <!-- Bell Icon -->
+     <div class="bell-icon">
+           <a href="#"><i class="fas fa-bell" style="color: white; size:2rem; font-size: 2rem; margin-left: 50px;"></i></a>
+           <div id="bell-icon-description"><p class="white font-sans" style="font-size: 1.0rem;">Notifications</p></div>
+   </div>
+   <!-- User Profile -->
+    <div id="myphoto" >
+       <img src="../MusicPlayer/images/GettyImages-1258418129.jpg" style="height: 70%; border-radius: 50%; top: 10%; margin: 0px; padding: 0px;">
+   </div>
+
+
+</div>
+</header>
+
+			<!-- Main Content -->
+
+            <div id="main-container" class="d-inline-block">
+                <!-- Artist div topmost Featuring of song -->
+                <div id="artists-div">
+                    <div id="artists-div-img" class="d-inline-block">
+                        <img src="../MusicPlayer/images/Imagine.jpg">
+                    </div>
+    
+                    <!-- About the Faetured Image -->
+                    <div id="artists-div-description-div" class="d-inline-block">
+                        <h3 class="heading" >
+                            ColdPlay
+                        </h3>
+                        <p class="font-grey font-sans" style="position: absolute;top:6%; right:10%;">851 Followers</p>
+    
+                        <p class="white font-sans white" style="font-size: 1.1rem;">Coldplay</p>
+                        <p class="font-sans font-grey" style="font-size: 0.9rem;">
+                            Coldplay is an English rock band formed in London in 1996. The band's members are vocalist/pianist Chris Martin, guitarist Jonny Buckland, bass player Guy Berryman and drummer Will Champion. Coldplay became famous around the world with their 2000 song "Yellow". 
+                        </p>
+    
+                        <!-- Play button -->
+                        <button id="btn">
+                            Play All
+                        </button>
+                        <a href="https://coldplay.com" target="Blank"><p class="font-sans white d-inline-block" style="position: absolute; left:40%;">Follow</p></a>
+                        <p class="font-sans font-grey" style="font-size: 0.8rem;">247 Tracks|128 Albums</p>
+                    </div>
+                </div>
+    
+    
+    
+                <a href="#player-bar">
+                    <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">01</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/love.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+                </a>
+    
+    
+                    <!-- .......................Songs Playlists Divs ........................-->
+    
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">02</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english6.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+    
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">03</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english5.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">04</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english4.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">05</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english3.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">06</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english2.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">07</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english1.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">08</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/love.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">09</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english6.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">10</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english5.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">11</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english4.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">12</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english3.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+                <!-- Playlist Div -->
+    
+                <a href="#player-bar">
+                <div class="playlists-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">13</p>
+                    </div>
+                    <div class="playlists-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english2.jpg"></div>
+                    <div class="image-description-div d-inline-block">
+                        <p class="image-description text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </a>
+    
+    
+    
+    
+            </div>
+    
+    
+                    <!-- .........................Aside Container ............................ -->
+    
+    
+            <div id="aside-container" class="d-inline-block">
+                <div id="aside-container-1">
+                    <h3 class="heading">
+                        Similar Artists
+                    </h3>
+    
+    
+    
+                        <!-- ..................Aside Container one ................. -->
+    
+    
+                    <!-- Aside Container one div -->
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="https://www.katyperry.com" target="blank"><img src="../MusicPlayer/images/katy.jpg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Katy Perry</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Rock Band</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+    
+                    <!-- Aside Container one div -->
+    
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="https://www.katyperry.com" target="blank"><img src="../MusicPlayer/images/katy1.jpg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Katy Perry</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Rock Band</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+                    <!-- Aside Container one div -->
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="https://www.selenagomez.com" target="blank"><img src="../MusicPlayer/images/selena_gomez.jpg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Selena Gomez</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Rock Band</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+                    <!-- Aside Container one div -->
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="http://www.rihannanow.com" target="blank"><img src="../MusicPlayer/images/rihanna.jpg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Rihanna</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Pop Band</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+                    <!-- Aside Container one div -->
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="https://www.taylorswift.com" target="blank"><img src="../MusicPlayer/images/taylor_swift.jpeg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Taylor Swift</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Rock Band</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+                    <!-- Aside Container one div -->
+    
+                    <div class="aside-container-1-div">
+                        <div class="aside-container-1-div-img">
+                            <a href="https://www.youtube.com/channel/UCXL-PxrEQINbi6QGo47731w" target="blank"><img src="../MusicPlayer/images/arijit.jpg"></a>
+                        </div>
+    
+                        <div class="image-description-1 d-inline-block">
+                            <p class="white font-sans" style="font-weight: 550; margin:5px;">Arijit Singh</p>
+                            <p class="font-sans font-grey" style="font-size: 0.9rem; margin:5px;">Indian Sensation</p>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-h" style="position: absolute; top:5%; right: 0; color:#8f84f0; font-size: 1.2rem;"></i></a>
+                        <p class="font-sans font-grey " style="position: absolute; top:14%; right:0; font-size: 0.9rem;">4:44</p>
+                    </div>
+    
+    
+                </div>
+    
+    
+    
+                            <!-- ..................Aside Container two.................... -->
+    
+    
+    
+                <div id="aside-container-2">
+                    <!-- heading -->
+                    <h3 class="heading">
+                        Recently Played
+                    </h3>
+    
+                    <!-- Aside container two div -->
+    
+                    <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">01</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/love.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">02</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english6.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+    
+                    <!-- Aside container two div -->
+    
+                    <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">03</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english5.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">04</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english4.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">05</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english3.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry bout Us</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">06</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english2.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">07</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english1.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">08</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/love.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Worry Bout Us</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Rosie Lowe</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">09</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english6.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">New Skin</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Flume</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+                <!-- Aside container two div -->
+    
+                <div class="aside-container-2-div">
+                    <div class="serial-number d-inline-block">
+                        <p style="padding: 0; margin: 0;" class="text white font-sans">10</p>
+                    </div>
+                    <div class="aside-container-2-div-img d-inline-block"><img src="../MusicPlayer/images/latest-english5.jpg"></div>
+                    <div class="image-description-2 d-inline-block">
+                        <p class="text white font-sans" style="font-weight: 550; font-size: 0.9rem;letter-spacing: 0.04rem;">Mirage</p>
+                        <p class="font-sans font-grey" style="color: #cdcbd4; font-size: 0.8rem;" >Else</p>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    
+                </div>
+    
+    
+    
+                </div>
+    
+    
+            </div>
+    
+    
+    
+                        <!-- ....................Bottom Player Bar.................... -->
+    
+            <div id="player-bar">
+    
+                <!-- player bar image -->
+                <div id="player-bar-img-div">
+                    <img src="../MusicPlayer/images/shape_of_you.jpg">
+                </div>
+                <p class="font-sans white" style="position: absolute; left:18%;">Shape of you</p>
+                <p class="font-sans font-grey" style="position: absolute; left:18%; font-size: 0.8rem; top:33%;">Ed Sheeran</p>
+                <div id="player-bar-center-div">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+    
+    
+                    <!-- Player bar music Audio -->
+    
+                    <audio controls="" id="audio-controls"> 
+                        <source src="shape_of_you.mp3">
+                    </audio>
+    
+                    <!-- Click exactly above this play icon circle and play the music  -->
+                    <i class="far fa-play-circle"></i>
+    
+    
+    
+                    
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-random" style="left: 63%;"></i>
+                    <p class="white font-sans" style="font-size: 0.7rem; position: absolute;top: 50%;">1:43</p>
+                    <div id="track-progress">
+                        <div id="track-progress-inside-div"></div>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p class="white font-sans" style="font-size: 0.7rem; position: absolute;top: 50%; right:0%;">5:00</p>
+    
+                </div>
+                
+            </div>
+    
+    
+    
+            <!-- .......................End of Body Tag........................ -->
+    
+</body>
+</html>
